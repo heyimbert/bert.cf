@@ -4,3 +4,13 @@ body {
     color:white;
     font-size: 50px;
 }
+
+.sf-snow-flake {
+    position: fixed;
+    top: -20px;
+    z-index: 0;
+    }
+
+.sf-snow-anim {
+    top: 110%;
+}
