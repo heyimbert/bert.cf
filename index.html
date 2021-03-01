@@ -1,9 +1,26 @@
+<html>
 <head>
     <link rel="stylesheet" href="BG.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/130527/h5ab-snow-flurry.js"></script>
 </head>
 
 <body>
     <center><h1>Welcome to Bert.CF</h1></center>
     <center><p>Website in progress, give me some time to learn JS and we will be up and running in no time!</p></center>
     <center><p>with love, Bert :) </p></center>
+
+    <script>
+        jQuery(document).ready(function($){
+        $(document).snowFlurry({
+        maxSize: 5,
+        numberOfFlakes: 50,
+        minSpeed: 10,
+        maxSpeed: 15,
+        color: '#fff',
+        timeout: 0
+        });
+        });
+    </script>
 </body>
+</html>
